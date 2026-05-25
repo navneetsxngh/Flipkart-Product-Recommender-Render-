@@ -1,0 +1,44 @@
+# Virtual environments
+FPRenv/
+venv/
+env/
+.venv/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+prompt.md
+
+# Data (already ingested to AstraDB — no need to version CSV)
+data/
